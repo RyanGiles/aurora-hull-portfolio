@@ -6,79 +6,42 @@ a {
 }
 
 .header {
-  background-color: $maroon;
+  padding: 2rem;
+  background-color: $warm-white;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
   color: $silver;
   font-size: 1.25rem;
-  @include desktop {
-    height: 10rem;
-    padding-bottom: 1.5rem;
-  }
-  @include header {
-    height: 8rem;
-    padding: 0;
-  }
-  &__title {
-    margin: 0;
-    margin-left: 1rem;
-    font-size: 1.75rem;
-    @include desktop {
-      font-size: 2.5rem;
-      margin-left: 1.5rem;
-    }
-  }
   &__logo {
-    height: 3rem;
-    @include desktop {
-      height: 4rem;
-    }
-  }
-  &__branding {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 1rem;
-    @include tablet {
-      margin: 0;
-    }
+    height: 5rem;
   }
 }
 
 .nav {
-  top: 5.5rem;
-  right: 0.5rem;
-  @include header {
-    top: 3.5rem;
-  }
   &__list {
     display: flex;
     align-items: center;
     padding: 0;
     list-style: none;
-    margin: 1rem 0;
-    @include tablet {
-      margin: 0;
-    }
+    margin: 0.5rem 0 0 0;
   }
   &__item {
-    margin: 0 1rem;
-    font-size: 0.8rem;
-    @include tablet {
-      font-size: 1rem;
-    }
-    @include desktop {
-      font-size: 1.25rem;
-    }
+    margin: 0 1.5rem;
+    font-size: 1rem;
     &-active {
-      color: $silver;
+      color: $darkgrey;
       text-decoration: underline;
+      margin: 0;
+      font-weight: 500;
     }
     &-inactive {
-      color: $silver;
+      color: $darkgrey;
       text-decoration: none;
+      margin: 0;
+      font-weight: 500;
     }
   }
 }

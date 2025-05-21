@@ -1,2 +1,29 @@
 @use "../../styles/mixins" as *;
 @use "../../styles/variables" as *;
+
+.homepage {
+  padding: 0 5rem;
+}
+
+.hero {
+  display: flex;
+  margin-bottom: 3rem;
+  &__text {
+    width: 100%;
+    align-content: end;
+    padding: 1rem;
+    background-color: lightgrey;
+  }
+  &__title {
+    font-weight: 400;
+    color: $hull_pink;
+    font-size: 3rem;
+  }
+  &__desc {
+    font-size: 1.5rem;
+  }
+  &__image {
+    background-color: $darkgrey;
+    width: 50vw;
+  }
+}

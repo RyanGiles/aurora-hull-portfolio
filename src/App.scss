@@ -1,1 +1,5 @@
+@use "./styles/variables" as *;
 
+.App {
+  background-color: $warm-white;
+}

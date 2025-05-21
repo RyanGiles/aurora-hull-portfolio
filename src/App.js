@@ -3,6 +3,7 @@ import "./App.scss";
 import Header from "./components/Header/Header";
 import Home from "./pages/Home/Home";
 import Contact from "./pages/Contact/Contact";
+import About from "./pages/About/About";
 
 import { useState } from "react";
 
@@ -11,6 +12,9 @@ let active = "";
 switch (window.location.pathname) {
   case "/contact":
     active = "contact";
+    break;
+  case "/about":
+    active = "about";
     break;
   default:
     active = "home";
@@ -26,6 +30,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="about" element={<About />} />
         </Routes>
       </BrowserRouter>
     </div>
