@@ -1,7 +1,10 @@
 import "./Home.scss";
 import heroImage from "../../Assets/Hero/heroimage.jpeg";
+import projectDataFile from "../../Assets/ProjectData.json";
+import ProjectTile from "../../components/ProjectTile/ProjectTile";
 
 function Home() {
+  let projectData = projectDataFile.projects;
   return (
     <div className="homepage">
       <div className="hero">
@@ -16,7 +19,16 @@ function Home() {
         </div>
         <img src={heroImage} alt="Working Desk" className="hero__image" />
       </div>
-      <div className="projects"></div>
+      <div className="projects">
+        {projectData.map((project) => (
+          <ProjectTile
+            projectID={project.id}
+            name={project.name}
+            image={project.images[0]}
+            desc={project.description}
+          />
+        ))}
+      </div>
     </div>
   );
 }

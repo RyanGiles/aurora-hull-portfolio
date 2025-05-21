@@ -1,0 +1,17 @@
+@use "../../styles/variables" as *;
+@use "../../styles/mixins" as *;
+
+.projectTile {
+  width: 25vw;
+  height: 25vw;
+  position: relative;
+  &__info {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  &__image {
+    width: 100%;
+    height: 100%;
+  }
+}
