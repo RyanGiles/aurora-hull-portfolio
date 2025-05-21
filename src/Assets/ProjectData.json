@@ -1,0 +1,54 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Backstage Boutique",
+      "description": "",
+      "images": []
+    },
+    {
+      "id": 2,
+      "name": "Messages of Progress",
+      "description": "",
+      "images": [
+        "MessagesOfProgress01.jpg",
+        "MessagesOfProgress02.jpg",
+        "MessagesOfProgress03.jpg",
+        "MessagesOfProgress04.png",
+        "MessagesOfProgress05.jpg",
+        "MessagesOfProgress06.jpg",
+        "MessagesOfProgress07.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Metaphysical",
+      "description": "",
+      "images": []
+    },
+    {
+      "id": 4,
+      "name": "Ready, Set, Go",
+      "description": "",
+      "images": [
+        "ReadySetGo01.png",
+        "ReadySetGo02.png",
+        "ReadySetGo03.png",
+        "ReadySetGo04.png",
+        "ReadySetGo05.mp4"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Sweet Water Spa",
+      "description": "",
+      "images": []
+    },
+    {
+      "id": 6,
+      "name": "The Unsung",
+      "description": "",
+      "images": []
+    }
+  ]
+}
