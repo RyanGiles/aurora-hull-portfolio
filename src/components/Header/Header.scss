@@ -32,8 +32,10 @@ a {
     margin: 0 1.5rem;
     font-size: 1rem;
     &-active {
-      color: $darkgrey;
+      color: $hull_pink;
       text-decoration: underline;
+      text-decoration-color: $hull_pink;
+      text-decoration-thickness: 0.1rem;
       margin: 0;
       font-weight: 500;
     }

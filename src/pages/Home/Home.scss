@@ -12,12 +12,12 @@
     width: 100%;
     align-content: end;
     padding: 1rem;
-    background-color: lightgrey;
   }
   &__title {
-    font-weight: 400;
-    color: $hull_pink;
     font-size: 3rem;
+    font-weight: 100;
+    color: $hull_pink;
+    font-family: "Hull Font";
   }
   &__desc {
     font-size: 1.5rem;
@@ -26,4 +26,10 @@
     background-color: $darkgrey;
     width: 50vw;
   }
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
