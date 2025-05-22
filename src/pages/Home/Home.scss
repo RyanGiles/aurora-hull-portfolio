@@ -3,6 +3,10 @@
 
 .homepage {
   padding: 0 5rem;
+  @include desktop {
+    padding: 0 12rem;
+    padding-top: 11rem;
+  }
 }
 
 .hero {
@@ -24,7 +28,7 @@
   }
   &__image {
     background-color: $darkgrey;
-    width: 50vw;
+    width: 40vw;
   }
 }
 

@@ -4,6 +4,7 @@ import Header from "./components/Header/Header";
 import Home from "./pages/Home/Home";
 import Contact from "./pages/Contact/Contact";
 import About from "./pages/About/About";
+import Footer from "./components/Footer/Footer";
 
 import { useState } from "react";
 
@@ -32,6 +33,7 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="about" element={<About />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );

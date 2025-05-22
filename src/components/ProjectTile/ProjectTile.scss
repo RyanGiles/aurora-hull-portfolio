@@ -2,8 +2,8 @@
 @use "../../styles/mixins" as *;
 
 .projectTile {
-  width: 27vw;
-  height: 27vw;
+  width: 25vw;
+  height: 25vw;
   position: relative;
   margin-bottom: 1.5rem;
   &__info {
