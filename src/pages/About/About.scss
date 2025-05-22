@@ -2,8 +2,22 @@
 @use "../../styles/variables" as *;
 
 .about {
+  display: flex;
+  justify-content: space-between;
   padding-top: 11rem;
   @include desktop {
     padding: 11rem 12rem 0 12rem;
+  }
+  &__column {
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+  }
+  &__item {
+    margin: 3rem 0;
+    &-text {
+      padding: 3rem;
+      background-color: $silver;
+    }
   }
 }

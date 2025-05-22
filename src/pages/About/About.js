@@ -4,7 +4,7 @@ function About() {
   return (
     <div className="about">
       <div className="about__column">
-        <p className="about__item">About me description</p>
+        <p className="about__item about__item-text">About me description</p>
         <img
           src="About/about01.jpeg"
           alt="gaming with spock"
