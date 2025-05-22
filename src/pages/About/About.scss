@@ -1,2 +1,9 @@
 @use "../../styles/mixins" as *;
 @use "../../styles/variables" as *;
+
+.about {
+  padding-top: 11rem;
+  @include desktop {
+    padding: 11rem 12rem 0 12rem;
+  }
+}
