@@ -24,7 +24,7 @@ function Home() {
           <ProjectTile
             projectID={project.id}
             name={project.name}
-            image={project.images[0]}
+            image={project.tile}
             desc={project.description}
           />
         ))}

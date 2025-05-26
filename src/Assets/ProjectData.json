@@ -4,12 +4,14 @@
       "id": 1,
       "name": "Backstage Boutique",
       "description": "",
+      "tile": "",
       "images": []
     },
     {
       "id": 2,
       "name": "Messages of Progress",
       "description": "",
+      "tile": "MessagesOfProgress01.jpg",
       "images": [
         "MessagesOfProgress01.jpg",
         "MessagesOfProgress02.jpg",
@@ -24,12 +26,14 @@
       "id": 3,
       "name": "Metaphysical",
       "description": "",
+      "tile": "",
       "images": []
     },
     {
       "id": 4,
       "name": "Ready, Set, Go",
       "description": "",
+      "tile": "ReadySetGo01.png",
       "images": [
         "ReadySetGo01.png",
         "ReadySetGo02.png",
@@ -42,12 +46,14 @@
       "id": 5,
       "name": "Sweet Water Spa",
       "description": "",
+      "tile": "",
       "images": []
     },
     {
       "id": 6,
       "name": "The Unsung",
       "description": "",
+      "tile": "Unsung00.png",
       "images": [
         "Unsung01.png",
         "Unsung02.png",
