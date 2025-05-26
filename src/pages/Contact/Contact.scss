@@ -1,2 +1,81 @@
 @use "../../styles/mixins" as *;
 @use "../../styles/variables" as *;
+
+.contact {
+  padding-top: 11rem;
+  margin: 0 12rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  &__form {
+    padding: 3rem;
+    display: flex;
+    background-color: $hull-pink;
+    flex-direction: column;
+    flex: 1;
+    margin: 0 3rem;
+  }
+  &__label {
+    color: $warm-white;
+    font-size: 1.25rem;
+    margin: 0.5rem 0;
+  }
+  &__input {
+    height: 1.25rem;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+  }
+  &__text {
+    resize: none;
+    height: stretch;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    background: $warm-white;
+  }
+  &__resume {
+    flex: 1;
+    order: -1;
+  }
+  &__image-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+  }
+  &__button {
+    width: fit-content;
+    align-self: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: $warm-white;
+    color: $hull-pink;
+    &:hover {
+      background-color: $silver;
+    }
+  }
+}
+
+input[type="text"] {
+  height: 1.25rem;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  background-color: $warm-white;
+  border: none;
+}
+
+textarea {
+  height: 1.25rem;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  background-color: $warm-white;
+  border: none;
+}
