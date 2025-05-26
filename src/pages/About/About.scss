@@ -16,8 +16,9 @@
   &__item {
     margin: 3rem 0;
     &-text {
+      color: $warm-white;
       padding: 3rem;
-      background-color: $silver;
+      background-color: $hull-pink;
     }
   }
 }
