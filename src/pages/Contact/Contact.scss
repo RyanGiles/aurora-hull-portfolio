@@ -72,6 +72,14 @@ input[type="text"] {
   border: none;
 }
 
+input[type="email"] {
+  height: 1.25rem;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  background-color: $warm-white;
+  border: none;
+}
+
 textarea {
   height: 1.25rem;
   padding: 0.25rem;

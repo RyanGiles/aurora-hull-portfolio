@@ -3,62 +3,35 @@ import "./Contact.scss";
 function Contact() {
   return (
     <div className="contact">
-      <form className="contact__form" action="/action_page.php">
-        <label className="contact__label" for="fname">
-          First Name
+      <form
+        className="contact__form"
+        method="post"
+        name="contact_form"
+        action="send_email.php"
+      >
+        <label htmlFor="name" className="contact__label">
+          Your Name:
+        </label>
+        <input className="contact__input" id="name" type="text" name="name" />
+        <label htmlFor="email" className="contact__label">
+          Email Address:
         </label>
         <input
           className="contact__input"
-          type="text"
-          id="fname"
-          name="firstname"
-          placeholder="Your name.."
-        />
-
-        <label className="contact__label" for="lname">
-          Last Name
-        </label>
-        <input
-          className="contact__input"
-          type="text"
-          id="lname"
-          name="lastname"
-          placeholder="Your last name.."
-        />
-
-        <label className="contact__label" for="country">
-          Email
-        </label>
-        <input
-          className="contact__input"
-          type="text"
           id="email"
+          type="email"
           name="email"
-          placeholder="Your email.."
         />
-
-        <label className="contact__label" for="subject">
-          Subject
+        <label htmlFor="message" className="contact__label">
+          Message:
         </label>
-        <input
-          className="contact__input"
-          type="text"
-          id="subject"
-          name="subject"
-          placeholder="Email subject line.."
-        />
 
-        <label className="contact__label" for="message">
-          Message
-        </label>
         <textarea
-          className="contact__text"
           id="message"
+          className="contact__text"
           name="message"
-          placeholder="Your message.."
         ></textarea>
-
-        <input className="contact__button" type="submit" value="Submit" />
+        <input className="contact__button" type="submit" value="Send" />
       </form>
       <embed
         src="/About/AuroraHull_resume.pdf"
