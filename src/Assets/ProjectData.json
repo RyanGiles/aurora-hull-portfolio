@@ -11,15 +11,15 @@
       "id": 2,
       "name": "Messages of Progress",
       "description": "",
-      "tile": "MessagesOfProgress01.jpg",
+      "tile": "/ProjectImages/MessagesOfProgress01.jpg",
       "images": [
-        "MessagesOfProgress01.jpg",
-        "MessagesOfProgress02.jpg",
-        "MessagesOfProgress03.jpg",
-        "MessagesOfProgress04.png",
-        "MessagesOfProgress05.jpg",
-        "MessagesOfProgress06.jpg",
-        "MessagesOfProgress07.jpg"
+        "/ProjectImages/MessagesOfProgress01.jpg",
+        "/ProjectImages/MessagesOfProgress02.jpg",
+        "/ProjectImages/MessagesOfProgress03.jpg",
+        "/ProjectImages/MessagesOfProgress04.png",
+        "/ProjectImages/MessagesOfProgress05.jpg",
+        "/ProjectImages/MessagesOfProgress06.jpg",
+        "/ProjectImages/MessagesOfProgress07.jpg"
       ]
     },
     {
@@ -33,13 +33,13 @@
       "id": 4,
       "name": "Ready, Set, Go",
       "description": "",
-      "tile": "ReadySetGo01.png",
+      "tile": "/ProjectImages/ReadySetGo01.png",
       "images": [
-        "ReadySetGo01.png",
-        "ReadySetGo02.png",
-        "ReadySetGo03.png",
-        "ReadySetGo04.png",
-        "ReadySetGo05.mp4"
+        "/ProjectImages/ReadySetGo01.png",
+        "/ProjectImages/ReadySetGo02.png",
+        "/ProjectImages/ReadySetGo03.png",
+        "/ProjectImages/ReadySetGo04.png",
+        "/ProjectImages/ReadySetGo05.mp4"
       ]
     },
     {
@@ -53,16 +53,16 @@
       "id": 6,
       "name": "The Unsung",
       "description": "",
-      "tile": "Unsung00.png",
+      "tile": "/ProjectImages/Unsung00.png",
       "images": [
-        "Unsung01.png",
-        "Unsung02.png",
-        "Unsung03.png",
-        "Unsung04.png",
-        "Unsung05.png",
-        "Unsung06.jpg",
-        "Unsung07.jpg",
-        "Unsung08.jpg"
+        "/ProjectImages/Unsung01.png",
+        "/ProjectImages/Unsung02.png",
+        "/ProjectImages/Unsung03.png",
+        "/ProjectImages/Unsung04.png",
+        "/ProjectImages/Unsung05.png",
+        "/ProjectImages/Unsung06.jpg",
+        "/ProjectImages/Unsung07.jpg",
+        "/ProjectImages/Unsung08.jpg"
       ]
     }
   ]

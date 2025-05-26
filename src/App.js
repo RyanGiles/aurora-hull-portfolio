@@ -5,6 +5,7 @@ import Home from "./pages/Home/Home";
 import Contact from "./pages/Contact/Contact";
 import About from "./pages/About/About";
 import Footer from "./components/Footer/Footer";
+import Project from "./pages/Project/Project";
 
 import { useState } from "react";
 
@@ -17,8 +18,11 @@ switch (window.location.pathname) {
   case "/about":
     active = "about";
     break;
-  default:
+  case "/home":
     active = "home";
+    break;
+  default:
+    active = "none";
     break;
 }
 
@@ -32,6 +36,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="contact" element={<Contact />} />
           <Route path="about" element={<About />} />
+          <Route path="project/:id" element={<Project />} />
         </Routes>
         <Footer />
       </BrowserRouter>

@@ -1,0 +1,67 @@
+@use "../../styles/mixins" as *;
+@use "../../styles/variables" as *;
+
+.project {
+  padding-top: 11rem;
+  margin: 0 12rem;
+  margin-bottom: 3rem;
+  &__hero {
+    width: stretch;
+    display: flex;
+    justify-content: space-between;
+    &image {
+      width: 50vw;
+    }
+    &text {
+      width: auto;
+      background-color: $hull-pink;
+      padding: 2rem;
+      color: $warm-white;
+      margin: 0;
+      font-size: 2rem;
+      margin-left: 3rem;
+      text-align: center;
+      align-content: center;
+    }
+  }
+  &__secondary {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    &text {
+      width: auto;
+      background-color: $hull-pink;
+      padding: 2rem;
+      color: $warm-white;
+      margin: 0;
+      font-size: 2rem;
+      margin-right: 3rem;
+      text-align: center;
+      align-content: center;
+    }
+    &images {
+      width: 30vw;
+    }
+    &image {
+      width: 30vw;
+    }
+  }
+  &__extra {
+    margin-top: 3rem;
+    column-count: 2;
+    column-gap: 3rem;
+
+    &__image {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 3rem;
+    }
+    &__video {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 3rem;
+    }
+  }
+}

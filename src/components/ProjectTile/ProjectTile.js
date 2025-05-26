@@ -1,10 +1,14 @@
 import "./ProjectTile.scss";
+import { useNavigate } from "react-router-dom";
 
 function ProjectTile({ projectID, name, image, desc }) {
-  let projectImage = `ProjectImages/${image}`;
+  const navigate = useNavigate();
   return (
-    <div className="projectTile">
-      <img src={projectImage} alt={name} className="projectTile__image" />
+    <div
+      onClick={() => navigate(`/project/${projectID}`)}
+      className="projectTile"
+    >
+      <img src={image} alt={name} className="projectTile__image" />
       <div className="projectTile__info">
         <h3 className="projectTile__title">{name}</h3>
         <p className="projectTile__desc">{desc}</p>
