@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/aurora-hull-portfolio/static/css/main.fba27d20.css",
-    "main.js": "/aurora-hull-portfolio/static/js/main.68b9c688.js",
+    "main.js": "/aurora-hull-portfolio/static/js/main.959eb899.js",
     "static/js/453.1407b060.chunk.js": "/aurora-hull-portfolio/static/js/453.1407b060.chunk.js",
     "static/media/heroimage.jpeg": "/aurora-hull-portfolio/static/media/heroimage.c0160f80b122e09cb5b9.jpeg",
     "static/media/logo.png": "/aurora-hull-portfolio/static/media/logo.c2068e0d9ae1e67b6103.png",
     "static/media/font.ttf": "/aurora-hull-portfolio/static/media/font.f26fe00b7024fbbfb034.ttf",
     "index.html": "/aurora-hull-portfolio/index.html",
     "main.fba27d20.css.map": "/aurora-hull-portfolio/static/css/main.fba27d20.css.map",
-    "main.68b9c688.js.map": "/aurora-hull-portfolio/static/js/main.68b9c688.js.map",
+    "main.959eb899.js.map": "/aurora-hull-portfolio/static/js/main.959eb899.js.map",
     "453.1407b060.chunk.js.map": "/aurora-hull-portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fba27d20.css",
-    "static/js/main.68b9c688.js"
+    "static/js/main.959eb899.js"
   ]
 }
