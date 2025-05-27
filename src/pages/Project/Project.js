@@ -31,7 +31,7 @@ function Project() {
     <div className="project">
       <div className="project__hero">
         <img
-          src={project.images[0]}
+          src={process.env.PUBLIC_URL + project.images[0]}
           alt="hero-image"
           className="project__heroimage"
         />
@@ -50,13 +50,13 @@ function Project() {
         </p>
         <div className="project__secondaryimages">
           <img
-            src={project.images[1]}
+            src={process.env.PUBLIC_URL + project.images[1]}
             alt={project.name}
             className="project__secondaryimage"
             style={{ marginBottom: 3 + `rem` }}
           />
           <img
-            src={project.images[2]}
+            src={process.env.PUBLIC_URL + project.images[2]}
             alt={project.name}
             className="project__secondaryimage"
           />
@@ -70,13 +70,13 @@ function Project() {
           if (extension === "mp4") {
             return (
               <video controls className="project__extra__video">
-                <source src={image} />
+                <source src={process.env.PUBLIC_URL + image} />
               </video>
             );
           } else {
             return (
               <img
-                src={image}
+                src={process.env.PUBLIC_URL + image}
                 alt={project.name}
                 className="project__extra__image"
               />

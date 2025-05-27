@@ -8,7 +8,11 @@ function ProjectTile({ projectID, name, image, desc }) {
       onClick={() => navigate(`/project/${projectID}`)}
       className="projectTile"
     >
-      <img src={image} alt={name} className="projectTile__image" />
+      <img
+        src={process.env.PUBLIC_URL + image}
+        alt={name}
+        className="projectTile__image"
+      />
       <div className="projectTile__info">
         <h3 className="projectTile__title">{name}</h3>
         <p className="projectTile__desc">{desc}</p>
