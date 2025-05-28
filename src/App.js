@@ -30,7 +30,7 @@ function App() {
   const [currPage, setCurrPage] = useState(active);
   return (
     <div className="App">
-      <HashRouter basename="/aurora-hull-portfolio">
+      <HashRouter>
         <Header page={currPage} setPage={setCurrPage} />
         <Routes>
           <Route path="/" element={<Home />} />
