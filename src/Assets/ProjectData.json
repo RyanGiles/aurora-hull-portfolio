@@ -3,14 +3,22 @@
     {
       "id": 1,
       "name": "Backstage Boutique",
-      "description": "",
-      "tile": "",
-      "images": []
+      "short-description": "",
+      "long-description": "",
+      "tile": "/ProjectImages/BackstageBoutique01.jpg",
+      "images": [
+        "/ProjectImages/BackstageBoutique01.jpg",
+        "/ProjectImages/BackstageBoutique02.jpg",
+        "/ProjectImages/BackstageBoutique03.png",
+        "/ProjectImages/BackstageBoutique04.jpg",
+        "/ProjectImages/BackstageBoutique05.jpg"
+      ]
     },
     {
       "id": 2,
       "name": "Messages of Progress",
-      "description": "",
+      "short-description": "",
+      "long-description": "",
       "tile": "/ProjectImages/MessagesOfProgress01.jpg",
       "images": [
         "/ProjectImages/MessagesOfProgress01.jpg",
@@ -24,15 +32,24 @@
     },
     {
       "id": 3,
-      "name": "Metaphysical",
-      "description": "",
-      "tile": "",
-      "images": []
+      "name": "Meta/Physical",
+      "short-description": "",
+      "long-description": "",
+      "tile": "/ProjectImages/Metaphysical01.jpg",
+      "images": [
+        "/ProjectImages/Metaphysical01.jpg",
+        "/ProjectImages/Metaphysical02.jpg",
+        "/ProjectImages/Metaphysical03.jpg",
+        "/ProjectImages/Metaphysical04.jpg",
+        "/ProjectImages/Metaphysical05.jpg",
+        "/ProjectImages/Metaphysical06.jpg"
+      ]
     },
     {
       "id": 4,
       "name": "Ready, Set, Go",
-      "description": "",
+      "short-description": "",
+      "long-description": "",
       "tile": "/ProjectImages/ReadySetGo01.png",
       "images": [
         "/ProjectImages/ReadySetGo01.png",
@@ -45,14 +62,24 @@
     {
       "id": 5,
       "name": "Sweet Water Spa",
-      "description": "",
-      "tile": "",
-      "images": []
+      "short-description": "",
+      "long-description": "",
+      "tile": "/ProjectImages/SweetWaterSpa01.jpg",
+      "images": [
+        "/ProjectImages/SweetWaterSpa01.jpg",
+        "/ProjectImages/SweetWaterSpa02.jpg",
+        "/ProjectImages/SweetWaterSpa03.jpg",
+        "/ProjectImages/SweetWaterSpa04.mp4",
+        "/ProjectImages/SweetWaterSpa05.jpg",
+        "/ProjectImages/SweetWaterSpa06.jpg",
+        "/ProjectImages/SweetWaterSpa07.jpg"
+      ]
     },
     {
       "id": 6,
       "name": "The Unsung",
-      "description": "",
+      "short-description": "",
+      "long-description": "",
       "tile": "/ProjectImages/Unsung00.png",
       "images": [
         "/ProjectImages/Unsung01.png",
