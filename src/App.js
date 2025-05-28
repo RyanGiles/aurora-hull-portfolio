@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import "./App.scss";
 import Header from "./components/Header/Header";
 import Home from "./pages/Home/Home";
@@ -30,7 +30,7 @@ function App() {
   const [currPage, setCurrPage] = useState(active);
   return (
     <div className="App">
-      <BrowserRouter basename="/aurora-hull-portfolio">
+      <HashRouter basename="/aurora-hull-portfolio">
         <Header page={currPage} setPage={setCurrPage} />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -39,7 +39,7 @@ function App() {
           <Route path="project/:id" element={<Project />} />
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
