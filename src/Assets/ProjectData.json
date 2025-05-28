@@ -3,8 +3,8 @@
     {
       "id": 1,
       "name": "Backstage Boutique",
-      "short-description": "",
-      "long-description": "",
+      "shortdescription": "A shop that combines retail with an immersive fan experience. This section is focused on my favorite band, Coldplay, and their 2011 album, Mylo Xyloto.",
+      "longdescription": "",
       "tile": "/ProjectImages/BackstageBoutique01.jpg",
       "images": [
         "/ProjectImages/BackstageBoutique01.jpg",
@@ -17,8 +17,8 @@
     {
       "id": 2,
       "name": "Messages of Progress",
-      "short-description": "",
-      "long-description": "",
+      "shortdescription": "A typographic book design that conveys themes of empowerment, activism, and transformation through the inclusion of feminist essays and poetry.",
+      "longdescription": "",
       "tile": "/ProjectImages/MessagesOfProgress01.jpg",
       "images": [
         "/ProjectImages/MessagesOfProgress01.jpg",
@@ -33,8 +33,8 @@
     {
       "id": 3,
       "name": "Meta/Physical",
-      "short-description": "",
-      "long-description": "",
+      "shortdescription": "Meta/Physical Therapy stars visual and performance artist Shana Moulton. This wild posting design advertises the exhibit that showed at the MoMA.",
+      "longdescription": "",
       "tile": "/ProjectImages/Metaphysical01.jpg",
       "images": [
         "/ProjectImages/Metaphysical01.jpg",
@@ -48,8 +48,8 @@
     {
       "id": 4,
       "name": "Ready, Set, Go",
-      "short-description": "",
-      "long-description": "",
+      "shortdescription": "A poster series and motion type video set to music to advertise a fictional racing event.",
+      "longdescription": "",
       "tile": "/ProjectImages/ReadySetGo01.png",
       "images": [
         "/ProjectImages/ReadySetGo01.png",
@@ -62,8 +62,8 @@
     {
       "id": 5,
       "name": "Sweet Water Spa",
-      "short-description": "",
-      "long-description": "",
+      "shortdescription": "A branding refresh and website redesign for a local business that evokes the essence of Savannah while maintaining brand personality.",
+      "longdescription": "",
       "tile": "/ProjectImages/SweetWaterSpa01.jpg",
       "images": [
         "/ProjectImages/SweetWaterSpa01.jpg",
@@ -78,8 +78,8 @@
     {
       "id": 6,
       "name": "The Unsung",
-      "short-description": "",
-      "long-description": "",
+      "shortdescription": "",
+      "longdescription": "",
       "tile": "/ProjectImages/Unsung00.png",
       "images": [
         "/ProjectImages/Unsung01.png",

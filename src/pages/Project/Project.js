@@ -35,19 +35,10 @@ function Project() {
           alt="hero-image"
           className="project__heroimage"
         />
-        <p className="project__herotext">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque
-          voluptatem eaque voluptates aliquid suscipit, laboriosam officia
-          deserunt fuga itaque quos tempora mollitia aliquam, minima maxime!
-          Repudiandae quis amet voluptatibus illo?
-        </p>
+        <p className="project__herotext">{project.shortdescription}</p>
       </div>
       <div className="project__secondary">
-        <p className="project__secondarytext">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis id
-          possimus libero nihil qui! Ex ut dolor corporis quis unde ipsum. Fugit
-          odio excepturi sunt sapiente animi repudiandae, est laborum.
-        </p>
+        <p className="project__secondarytext">{project.longdescription}</p>
         <div className="project__secondaryimages">
           <img
             src={process.env.PUBLIC_URL + project.images[1]}

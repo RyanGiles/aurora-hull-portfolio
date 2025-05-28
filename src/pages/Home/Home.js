@@ -25,7 +25,7 @@ function Home() {
             projectID={project.id}
             name={project.name}
             image={project.tile}
-            desc={project.description}
+            desc={project.shortdescription}
           />
         ))}
       </div>
