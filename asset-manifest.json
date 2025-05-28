@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/aurora-hull-portfolio/static/css/main.fba27d20.css",
-    "main.js": "/aurora-hull-portfolio/static/js/main.be49bb50.js",
-    "static/js/453.1407b060.chunk.js": "/aurora-hull-portfolio/static/js/453.1407b060.chunk.js",
-    "static/media/heroimage.jpeg": "/aurora-hull-portfolio/static/media/heroimage.c0160f80b122e09cb5b9.jpeg",
-    "static/media/logo.png": "/aurora-hull-portfolio/static/media/logo.c2068e0d9ae1e67b6103.png",
-    "static/media/font.ttf": "/aurora-hull-portfolio/static/media/font.f26fe00b7024fbbfb034.ttf",
-    "index.html": "/aurora-hull-portfolio/index.html",
-    "main.fba27d20.css.map": "/aurora-hull-portfolio/static/css/main.fba27d20.css.map",
-    "main.be49bb50.js.map": "/aurora-hull-portfolio/static/js/main.be49bb50.js.map",
-    "453.1407b060.chunk.js.map": "/aurora-hull-portfolio/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/www.aurorahull.com/static/css/main.60ceb7f8.css",
+    "main.js": "/www.aurorahull.com/static/js/main.7e21da92.js",
+    "static/js/453.1407b060.chunk.js": "/www.aurorahull.com/static/js/453.1407b060.chunk.js",
+    "static/media/heroimage.jpeg": "/www.aurorahull.com/static/media/heroimage.c0160f80b122e09cb5b9.jpeg",
+    "static/media/logo.png": "/www.aurorahull.com/static/media/logo.c2068e0d9ae1e67b6103.png",
+    "static/media/font.ttf": "/www.aurorahull.com/static/media/font.f26fe00b7024fbbfb034.ttf",
+    "index.html": "/www.aurorahull.com/index.html",
+    "main.60ceb7f8.css.map": "/www.aurorahull.com/static/css/main.60ceb7f8.css.map",
+    "main.7e21da92.js.map": "/www.aurorahull.com/static/js/main.7e21da92.js.map",
+    "453.1407b060.chunk.js.map": "/www.aurorahull.com/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fba27d20.css",
-    "static/js/main.be49bb50.js"
+    "static/css/main.60ceb7f8.css",
+    "static/js/main.7e21da92.js"
   ]
 }
