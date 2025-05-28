@@ -9,11 +9,13 @@ function About() {
         thoughtful print design with immersive exhibition work, grounded in
         clarity and craft. I strive to connect people to ideas in ways they can
         see, touch, and remember. <br />
+        <br />
         Growing up surrounded by designers and artists and treating my father’s
         studio as a second home, it was inevitable that I would fall in love
         with graphic design. At SCAD, I have immersed myself in the world of
         print and physical production, finding joy particularly in typography
         and texture and the bold presence of exhibition designs. <br />
+        <br />
         With a strong foundation in design principles, hands-on experience, and
         a desire to contune learning and expanding my talents, I look forward to
         contributing to studios or institutions that share my love for crafting
