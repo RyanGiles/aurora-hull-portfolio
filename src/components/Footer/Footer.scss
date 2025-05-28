@@ -4,4 +4,15 @@
 .footer {
   background-color: $hull_pink;
   height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__icon {
+    height: 2rem;
+    margin: 0 0.5rem;
+  }
+  &__text {
+    color: $warm-white;
+    margin: 0 0.5rem;
+  }
 }
