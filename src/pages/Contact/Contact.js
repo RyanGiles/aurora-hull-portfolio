@@ -34,7 +34,7 @@ function Contact() {
         <input className="contact__button" type="submit" value="Send" />
       </form>
       <embed
-        src={process.env.PUBLIC_URL + "/About/AuroraHull_resume.pdf"}
+        src={process.env.PUBLIC_URL + "/About/AuroraHull_Resume.pdf"}
         type="application/pdf"
         className="contact__resume"
       />
