@@ -34,13 +34,13 @@ function Contact() {
         <input className="contact__button" type="submit" value="Send" />
       </form>
       <embed
-        src="/About/AuroraHull_resume.pdf"
+        src={process.env.PUBLIC_URL + "/About/AuroraHull_resume.pdf"}
         type="application/pdf"
         className="contact__resume"
       />
       <div className="contact__image-container">
         <img
-          src="/About/about02.jpg"
+          src={process.env.PUBLIC_URL + "/About/about02.jpg"}
           alt="headshot"
           className="contact__image"
         />
